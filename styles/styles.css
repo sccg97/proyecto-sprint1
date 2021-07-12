@@ -1,0 +1,591 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.world{
+    text-decoration: line-through;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.dot{
+    color:  #0000FE;
+}
+
+p{
+    color: #060A24 100%;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0.7%;
+}
+
+a{
+    font-family: 'IBM Plex Mono', monospace; 
+    color: #060A24; 
+    font-weight: 500; 
+}
+
+
+.buttons a{
+    background-color:#00F3BB;
+    height: 48px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: background-color .5s;
+}
+
+.buttons a:hover{
+    color: white;
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+}
+
+.cont-menu ul li :hover{
+        
+    text-decoration: line-through;
+    color: #00F3BB;
+    }
+
+.cont-menu ul li :active{
+    color: rgba(6,10,36,0.56);
+    text-decoration: line-through;
+    }
+
+.buttons a:active{
+    color: rgba(6,10,36,0.56);
+    text-decoration: line-through;
+    }
+
+a{
+    text-decoration: none;
+    
+}
+
+
+.podcast{
+    margin: 11px;
+    margin-top: 21px;
+}
+
+.image-style{
+    height: 100%;
+    width: 100%;
+}
+
+
+.phone-container{
+    margin-top: -155px;
+    position: relative;
+}
+
+.phone-section div h2{
+    margin-top: 27px;
+    margin-bottom: 8px;
+}
+
+
+.main-section{
+    margin-top: 14px;
+}
+
+
+.article-podcast{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 2.5%, 100% 0%, 100% 97.5%, 0% 100%);
+    padding: 64px  0 143.5px;
+    /*padding-top: 64px;
+    padding-bottom: 143.5px;*/
+
+}
+
+.title-episodes{
+    margin-bottom: 7px;
+    color: white;
+}
+
+iframe{
+    margin-bottom: 11px;
+}
+
+h1{
+    margin-top: 29px;
+    margin-bottom: 16px;
+    margin-right: 20%;
+}
+
+.guests-title{
+    margin-top: 54px;
+    margin-bottom: 14px;
+    margin-right: 20%;
+}
+
+
+
+.welcome-text{
+    margin-bottom: 36px;
+}
+
+
+.welcome{
+    margin-bottom: 24px;
+}
+
+h1, h2{
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 5%;
+}
+.meet-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.meet-us h2 {
+    margin-bottom: 24px;
+    margin-top: 48px;
+    
+}
+
+.meet-us div {
+    width: 100%;
+}
+
+
+figure {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    
+}
+
+figcaption {
+    margin-top: 13px;
+    margin-bottom: 52px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    width: 80%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 24px;
+    color: #060A24;
+    letter-spacing: 0;
+}
+
+.theme1{
+    margin: bottom 36px; ;
+}
+
+
+.img-temas{
+    height: 100px;
+    width: 130px;
+}
+
+.newsletter{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+    height: 100%;
+    width: 100%;
+    padding-top: 64px;
+    padding-bottom: 67px;
+}
+
+.newsletter h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 36px;
+}
+
+h3{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+
+.social-networks img{
+    height: 28px;
+    width: 16px;
+    margin-left: 38px;
+}
+
+.social-networks div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
+
+
+.social-networks div :last-child a img{
+    margin-right: 45px;   
+}
+
+.social-networks div :first-child a img{
+    margin-left: 45px;
+    
+}
+
+.icon_variant{
+    filter:brightness(0%)
+}
+
+.icon_variant:hover{
+    filter: brightness(100%);
+}
+
+.main-section, .meet-us-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    justify-content: center; 
+    align-items: center;
+}
+
+.meet-us-container figure{
+    height: 100%;
+    width: 100%;
+}
+/* MENU HAMBURGUESA*/
+@media only screen and (max-width: 767px) {
+        .desktop{
+            display: none;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10px;
+            clear: right;
+        }
+
+        .menu img {
+            width: 24px;
+        }
+
+        .menu-hamburger{
+            position: relative;
+        }
+
+        .input-menu{
+            display: none;
+        }
+
+        .input-menu:checked ~ .cont-menu {
+            transition: all 0.5s ease-in-out;
+            left: calc(-100vw + 50px);
+        }
+        .input-menu:checked ~ label > .inner {
+            transform: translateY(10px) rotate(45deg);
+            transition: all 0.3s ease-in-out;
+        }
+        .input-menu:checked ~ label > .inner::after {
+            transform: translateY(-10px) rotate(90deg);
+            transition: all 0.3s ease-in-out;
+        }
+        .input-menu:checked ~ label > .inner::before {
+            opacity: 0;
+            transform: translateY(-20px) rotate(90deg);
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .label-menu{
+            cursor: pointer;
+            position: relative;
+            height: 30px;
+            width: 40px;
+            display: block;
+        }
+        
+        
+        .inner, .inner::before, .inner::after{
+            content: '';
+            width: 18px;
+            height: 2px;
+            border-radius: 2px;
+            background-color: black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: all 0.3s ease-in-out;
+        
+        }
+
+        .inner::before {
+            top: 5px;
+        } 
+        
+        .inner::after{
+            top: 10px;
+        }
+
+        .cont-menu {
+            position: absolute;
+            bottom: -220px;
+            left:51px;
+            transition: all 0.5s ease-in-out;
+        }
+
+        .cont-menu, .cont-menu ul, .cont-menu li, .cont-menu a{
+            width: 100vw;
+        }
+
+        .cont-menu li{
+            list-style: none;
+            margin-bottom: 1px solid white;
+        }
+        
+        .cont-menu li:last-child {
+            border-bottom: none;
+        }
+        
+        .cont-menu a{
+            text-decoration: none;
+            padding:  15px 20px;
+            background-color:#0000EC;
+            display: block;
+            color: white;
+        }
+        
+
+    }
+
+
+
+@media only screen and (min-width: 601px) {
+    
+
+    .main-section img, .meet-us-container figure{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    
+    .mobile{
+        display: none;
+    }
+
+    .welcome-text{
+        margin-right: 42.5%;
+    }
+
+    .menu img{
+        height: 36px;
+        width: 36px;
+    }
+
+    
+    .buttons{
+        display: flex;  
+    }
+
+    .second{
+        justify-content: center; 
+    }
+
+    .first a{
+        height: 56px;
+        width: 226px;
+        margin-left: 5%;
+    }
+    .second a{
+        height: 56px;
+        width: 345px;
+    }
+
+    h2{
+        font-size: 48px;
+    }
+
+    p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .menu {
+        display: flex;
+        margin-top: 26px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 120px;
+    }
+
+    .input-menu{
+        display: none;
+    }
+
+    .menu-hamburger{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .cont-menu ul{
+        display: flex;
+        list-style: none;
+    }
+
+    .cont-menu ul li{
+        margin-right: 38px;
+    }
+
+    h1, .welcome-text, .first a, .meet-us-title, .meet-us-container figure{
+        margin-left: 0%;
+    }
+    
+
+    .welcome, .title-episodes, .guests-title, .meet-us-title{
+        margin-left:13.9%;  
+    }
+
+    .meet-us{
+        margin-right: 13.9%;
+    }
+
+    h1{
+        font-size: 64px;
+    }
+
+    .phone-section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: center;
+        justify-content: center; 
+        align-items:flex-start;
+    }
+
+    
+    .phone-container img{
+        height: auto;
+    }
+
+    
+
+    .phone-container{
+        width: 50%;
+        max-width: 457.6px;
+    }
+
+    .phone-description{
+        width: 35%;
+        margin-left: 4.3%;
+        margin-right: 7.8%;
+    }
+
+    .phone-description p{
+        margin-top: 24px;
+    }
+
+
+    .main-section img{
+        width: 33.33%;
+    }
+
+    .meet-us-container figure{
+        width: 20%;    
+    }
+
+    .guests-title{
+        margin-top: 0.5%;
+    }
+
+    .podcast{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-right: 1.9%;
+        padding-left: 1.9%;
+    }
+
+    iframe{
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 72px;
+        width: 40%;
+    }
+
+    .article-podcast{
+        clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+    }
+
+    .guests-title{
+        margin-top: 32px;
+    }
+
+    .title-episodes{
+        margin-top: 4.8%;
+        margin-bottom: 5px;
+    }
+
+    h3{
+        line-height: 28px;
+    }
+
+    .social-networks{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.9%;
+        padding-bottom: 0.9%;
+        font-size: 16px;
+    }
+
+    .social-networks div, .social-networks h3{
+        width: 50%;
+        margin: 0%;
+    }
+
+    .newsletter{
+        clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+    } 
+
+    .newsletter h2{
+        margin-top: 5.4%;
+    }
+
+    .newsletter div{
+        margin-bottom: 3.9%;
+    }
+
+}
