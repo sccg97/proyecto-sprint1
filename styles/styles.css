@@ -9,12 +9,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-.world{
-    text-decoration: line-through;
+
+.wrapper{
+    overflow-x: hidden;
 }
 
-body{
-    overflow-x: hidden;
+.world{
+    text-decoration: line-through;
 }
 
 .dot{
